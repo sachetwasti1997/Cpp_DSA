@@ -16,6 +16,17 @@ public:
 };
 
 int main() {
-    Solution s;
-    cout<<s.minimumSteps("0111");
+
+#ifndef ONLINE_JUDGE
+    freopen("../input.txt", "r", stdin);
+    freopen("../output.txt", "w", stdout);
+#endif
+    int n[5];
+    for (int i=0; i<5; i++) {
+        cin>>n[i];
+    }
+    for(int i=0; i<5; i++) {
+        cout<<n[i]<<" ";
+    }
+    cout<<endl;
 }
